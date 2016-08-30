@@ -1,134 +1,117 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Coding Temple</title>
     <meta charset="utf-8" />
-
-    <style>
-        body{
-            background-color: white;
-            color: black;
-            font-weight: 300;
-            font-size: 16px;
-            line-height: 22px;
-            font-family:  "Open Sans",Arial, Helvetica, sans-serif;
-        }
-        .container{
-            width: 960px;
-            padding-left: 30px;
-            padding-right: 30px;
-            margin: 0 auto;
-        }
-        .alt-link{
-            background-color: black;
-        }
-        .alt-link a{
-            color: white !important;
-        }
-        h1, h2, h3, h4{
-            color: #45a2da;
-        }
-        h2, h3, h4{
-            font-size: 22px;
-            font-weight: 400;
-            text-transform: uppercase;
-        }
-        a{
-            text-decoration: none;
-        }
-        header nav li{
-            display: inline-block;
-        }
-        header nav li:hover{
-            box-shadow: inset 0 3px 0 0 #45a2da;
-            color: #45a2da;
-        }
-        header nav li a{
-            color: black;
-        }
-        article p{
-            color: #848484;
-        }
-        footer{
-            background-color: black;
-            border-top: 1px solid rgba(0,0,0,0.085);
-            box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.8);
-        }
-        footer a {
-            color: white;
-        }
-        footer aside h5{
-            color: #848484;
-        }
-        
-    </style>
-
+    <link href="content/main.css" rel="stylesheet" />
 </head>
 <body>
-
-    <header class="container">
-        <h1>Coding Temple</h1>
-        <nav>
-            <ul>
-                <li>
+    <header class="container header-wrapper">
+        <div class="col-1-3">
+            <img src="images/logo.png" />
+        </div>
+        <nav class="col-2-3">
+            <ul class="nav-menu">
+                <li class="menuitem nav-menu-item">
                     <a href="index.html">Home</a>
                 </li>
-                <li>
+                <li class="menuitem nav-menu-item">
                     <a href="courses.html">Courses</a>
                 </li>
-                <li>
+                <li class="menuitem nav-menu-item">
                     <a href="students.html">Students</a>
                 </li>
-                <li class="alt-link">
+                <li class="alt-link menuitem nav-menu-item">
                     <a href="apply.html">Apply Now</a>
                 </li>
             </ul>
         </nav>
+        <div class="clearfix"></div>
     </header>
 
-    <section class="container">
-        <article>
-            <h2>Classes</h2>
-            <p>
-                Coding Temple offers classes at our two campuses located in Schaumburg, and Chicago.  Currently we offer full and part-time classes.  Our next classes start January 4th, 2016.
-                <a href="apply.html">Start your application...</a>
-            </p>
-        </article>
-    </section>
+    <div class="body-wrapper">
+        <section class="container">
+            <article>
+                <div class="col-1-2 v-align">
+                    <h2>Classes</h2>
+                    <p>
+                        Coding Temple offers classes at our two campuses located in Schaumburg, and Chicago.  Currently we offer full and part-time classes.  Our next classes start January 4th, 2016.
+                        <a href="apply.html">Start your application...</a>
+                    </p>
+                </div>
+                <div class="col-1-2">
+                    <img src="images/classes.png" width="325" height="325" />
+                </div>
+                <div class="clearfix"></div>
+            </article>
+        </section>
 
-    <section class="container">
-        <article>
-            <h2>Course Curriculum</h2>
-            <p>
-                Technologies covered: JavaScript, C#, ASP.NET MVC, Entity Framework, HTML/CSS, SQL, Git, and more! We will also teach you how to learn as our end goal is to make you adaptable to other similar technologies and future technologies.
-                <a href="courses.html">View the curriculum...</a>
-            </p>
-        </article>
-    </section>
+        <section class="container">
+            <article>
+                <div class="col-1-2">
+                    <img src="images/curriculum.png" width="325" height="325" />
+                </div>
+                <div class="col-1-2 v-align">
+                    <h2>Course Curriculum</h2>
+                    <p>
+                        Technologies covered: JavaScript, C#, ASP.NET MVC, Entity Framework, HTML/CSS, SQL, Git, and more! We will also teach you how to learn as our end goal is to make you adaptable to other similar technologies and future technologies.
+                        <a href="courses.html">View the curriculum...</a>
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+            </article>
+        </section>
 
-    <section class="container">
-        <article>
-            <h2>Current Students</h2>
-            <p>
-                Our current cohort consists of students from various backgrounds and knowledge about the IT industry.
-                <a href="students.html">View more on our students...</a>
-            </p>
-        </article>
-    </section>
+        <section class="container">
+            <article>
+                <div class="col-1-2 v-align">
+                    <h2>Current Students</h2>
+                    <p>
+                        Our current cohort consists of students from various backgrounds and knowledge about the IT industry.
+                        <a href="students.html">View more on our students...</a>
+                    </p>
+                </div>
+                <div class="col-1-2">
+                    <img src="images/students.png" width="325" height="325" />
+                </div>
+                <div class="clearfix"></div>
+            </article>
+        </section>
+    </div>
 
-    <footer class="container">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="courses.html">Courses</a>
-            <a href="students.html">Students</a>
-            <a href="apply.html">Apply Now</a>
-        </nav>
-        <aside>
-            <h5>222 W Ontario</h5>
-            <h5>Suite 450</h5>
-            <h5>Chicago, IL 60654</h5>
-        </aside>
+    <div class="footer-wrapper">
+        <footer class="container">
+        <section class="col-1-3">
+            <img src="images/logo_small.png" />
+            <article>
+                <p>
+                    The skills and experience that students achieve at Coding Temple takes them a long way. We offer small classes, so students are able to have a more one on one interaction with our teachers. Our curriculum is designed to make students feel confident and be successful in the workforce once they have completed our course.
+                </p>
+            </article>
+        </section>
+        <section class="col-1-3">
+            <header>
+                <h3>Quick Links</h3>
+            </header>
+            <nav class="text-white">
+                <a href="index.html">Home</a>
+                &bull;
+                <a href="courses.html">Courses</a>
+                &bull;
+                <a href="students.html">Students</a>
+                &bull;
+                <a href="apply.html">Apply Now</a>
+            </nav>
+        </section>
+        <section class="col-1-3">
+            <article>
+                <p>332 S Michigan</p>
+                <p>9th Floor</p>
+                <p>Chicago, IL 60604</p>
+            </article>
+        </section>
+        <div class="clearfix"></div>
     </footer>
-
+    </div>
 </body>
 </html>
