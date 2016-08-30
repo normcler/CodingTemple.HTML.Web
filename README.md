@@ -10,18 +10,18 @@
 2.	Add three sections with headers below the links as Sub-Headings of H1
   1.	Each section’s content should be placed inside the article tag, and the copy text for it is as follows:
 ```
-**Classes**
+Classes
 
 Coding Temple offers classes at our two campuses located in Schaumburg, and Chicago.  Currently we offer full and part-time classes.  Our next classes start January 4th, 2016.
 
 Start your application…
 
-**Course Curriculum**
+Course Curriculum
 
 Technologies covered: JavaScript, C#, ASP.NET MVC, Entity Framework, HTML/CSS, SQL, Git, and more! We will also teach you how to learn as our end goal is to make you adaptable to other similar technologies and future technologies.
 
 View the Curriculum…
-**Current Students**
+Current Students
 
 Our current cohort consists of students from various backgrounds and knowledge about the IT industry.
 
