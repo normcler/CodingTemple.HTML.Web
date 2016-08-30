@@ -5,12 +5,6 @@
     <meta charset="utf-8" />
 
     <style>
-        .container{
-            width: 960px;
-            padding-left: 30px;
-            padding-right: 30px;
-            margin: 0 auto;
-        }
         body{
             background-color: white;
             color: black;
@@ -18,6 +12,18 @@
             font-size: 16px;
             line-height: 22px;
             font-family:  "Open Sans",Arial, Helvetica, sans-serif;
+        }
+        .container{
+            width: 960px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin: 0 auto;
+        }
+        .alt-link{
+            background-color: black;
+        }
+        .alt-link a{
+            color: white !important;
         }
         h1, h2, h3, h4{
             color: #45a2da;
@@ -30,33 +36,31 @@
         a{
             text-decoration: none;
         }
-        header nav {
-            text-align: right;
+        header nav li{
+            display: inline-block;
         }
-        header nav a {
-            color: black;
-        }
-        header nav a:hover{
+        header nav li:hover{
+            box-shadow: inset 0 3px 0 0 #45a2da;
             color: #45a2da;
         }
-        footer a {
-            color: white;
+        header nav li a{
+            color: black;
         }
         article p{
             color: #848484;
-        }
-        .alt-link{
-            background-color: black;
-            color: white;
         }
         footer{
             background-color: black;
             border-top: 1px solid rgba(0,0,0,0.085);
             box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.8);
         }
-        footer aside h3{
+        footer a {
+            color: white;
+        }
+        footer aside h5{
             color: #848484;
         }
+        
     </style>
 
 </head>
@@ -65,10 +69,20 @@
     <header class="container">
         <h1>Coding Temple</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="courses.html">Courses</a>
-            <a href="students.html">Students</a>
-            <a class="alt-link" href="apply.html">Apply Now</a>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="courses.html">Courses</a>
+                </li>
+                <li>
+                    <a href="students.html">Students</a>
+                </li>
+                <li class="alt-link">
+                    <a href="apply.html">Apply Now</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -110,10 +124,11 @@
             <a href="apply.html">Apply Now</a>
         </nav>
         <aside>
-            <h3>222 W Ontario</h3>
-            <h3>Suite 450</h3>
-            <h3>Chicago, IL 60654</h3>
+            <h5>222 W Ontario</h5>
+            <h5>Suite 450</h5>
+            <h5>Chicago, IL 60654</h5>
         </aside>
     </footer>
+
 </body>
 </html>
