@@ -1,3 +1,22 @@
+# CodingTempleWebsite
+Coding Temple Web Application (Not wordpress, not mobile responsive)
+
+## Project Overview
+1. The goal of this is to show a step-by-step evolution of the a web site, corresponding to concepts discussed in Coding Temple's HTML overview sessions.
+
+## Instructions 
+1. Go to Coding Temple’s website and open up Course Overview and Apply Now pages 
+2. When you are recreating the pages make sure to reuse the header and footer html code that already completed. 
+3. For Course Overview you only need to replicate ONLY the body portion 
+ * All the text and information inside it 
+ * YOU DO NOT NEED TO INCLUDE THE REVOLVING HEADER ON TOP 
+ * Try to reuse as much of the CSS code as possible 
+ * When doing the coding for the web responsive design make sure you shrink the coding temple website horizontally so you can see how it behaves and try to replicate that in your project 
+4. For Apply Now, it should look exactly the same as it does on Coding Temple’s website 
+ * Do not worry about having the send now feature working 
+ * Just have the button created and we will take of the rest in Project 2 
+
+
 #Create a header section 
 1.	Add a header tag of H1
   1.	Text should be: Coding Temple (Will be replaced by an image in the latter assignment)
