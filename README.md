@@ -1,21 +1,15 @@
 # CodingTempleWebsite
-Coding Temple Web Application (Not wordpress, not mobile responsive)
+Coding Temple Web Application (Not wordpress, not mobile responsive).
+The running version of this website is available at http://codingtemple.azurewebsites.net/
 
 ## Project Overview
 1. The goal of this is to show a step-by-step evolution of the a web site, corresponding to concepts discussed in Coding Temple's HTML overview sessions.
 
 ## Instructions 
-1. Go to Coding Temple’s website and open up Course Overview and Apply Now pages 
-2. When you are recreating the pages make sure to reuse the header and footer html code that already completed. 
-3. For Course Overview you only need to replicate ONLY the body portion 
- * All the text and information inside it 
- * YOU DO NOT NEED TO INCLUDE THE REVOLVING HEADER ON TOP 
- * Try to reuse as much of the CSS code as possible 
- * When doing the coding for the web responsive design make sure you shrink the coding temple website horizontally so you can see how it behaves and try to replicate that in your project 
-4. For Apply Now, it should look exactly the same as it does on Coding Temple’s website 
- * Do not worry about having the send now feature working 
- * Just have the button created and we will take of the rest in Project 2 
-
+1. Each branch of this project represents a "checkpoint" in the evolution of the application.  The master branch shows the initial state of the application and some visual assets.
+2. Clone or fork this master branch, and gradually work through each of the steps outlined below until you arrive at the final project state.
+3. There are several additional pages referenced in the document that do not exist, but are used to demonstrate relative links.
+4. No additional software is needed to run this application, it is a stand-alone HTML application which can be run from the file system.
 
 #Create a header section 
 1.	Add a header tag of H1
