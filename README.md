@@ -1,3 +1,16 @@
+# CodingTempleWebsite
+Coding Temple Web Application (Not wordpress, not mobile responsive).
+The running version of this website is available at http://codingtemple.azurewebsites.net/
+
+## Project Overview
+1. The goal of this is to show a step-by-step evolution of the a web site, corresponding to concepts discussed in Coding Temple's HTML overview sessions.
+
+## Instructions 
+1. Each branch of this project represents a "checkpoint" in the evolution of the application.  The master branch shows the initial state of the application and some visual assets.
+2. Clone or fork this master branch, and gradually work through each of the steps outlined below until you arrive at the final project state.
+3. There are several additional pages referenced in the document that do not exist, but are used to demonstrate relative links.
+4. No additional software is needed to run this application, it is a stand-alone HTML application which can be run from the file system.
+
 #Create a header section 
 1.	Add a header tag of H1
   1.	Text should be: Coding Temple (Will be replaced by an image in the latter assignment)
