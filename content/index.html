@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coding Temple</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    
+    <meta name="viewport" content="initial-scale=2" />
+    <link href="content/main.css" rel="stylesheet" /> 
+</head>
+<body>
+    <header>
+        <div class="col-1-3 logo"> </div>
+            <nav class="col-2-3">
+                <button class="hamburger" onclick="showNav(this)">&#9776;</button>
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="courses.html">Courses</a> </li>
+                    <li> <a href="students.html">Students</a> </li>
+                    <li class="alt-link"> <a href="apply.html">Apply Now</a> </li>
+                </ul>
+            </nav>
+        <div class="clearfix"></div>
+    </header>
+    <main class="body-wrapper">
+        <section class="container first">
+            <article>
+                <div class="col-1-2 v-align">
+                    <h2>Classes</h2>
+                    <p> Coding Temple offers classes at our two campuses located in Schaumburg, and Chicago. Currently we offer full and part-time classes. Our next classes start January 4th, 2016. <a href="apply.html">Start your application...</a> </p>
+                </div>
+                <div class="col-1-2"> <img src="images/classes.png" /> </div>
+                <div class="clearfix"></div>
+            </article>
+        </section>
+        <section class="container second">
+            <article>
+                <div class="col-1-2"> <img src="images/curriculum.png" /> </div>
+                <div class="col-1-2 v-align">
+                    <h2>Course Curriculum</h2>
+                    <p> Technologies covered: JavaScript, C#, ASP.NET MVC, Entity Framework, HTML/CSS, SQL, Git, and more! We will also teach you how to learn as our end goal is to make you adaptable to other similar technologies and future technologies. <a href="courses.html">View the curriculum...</a> </p>
+                </div>
+                <div class="clearfix"></div>
+            </article>
+        </section>
+        <section class="container third">
+            <article>
+                <div class="col-1-2 v-align">
+                    <h2>Current Students</h2>
+                    <p> Our current cohort consists of students from various backgrounds and knowledge about the IT industry. <a href="students.html">View more on our students...</a> </p>
+                </div>
+                <div class="col-1-2"> <img src="images/students.png" /> </div>
+                <div class="clearfix"></div>
+            </article>
+        </section>
+    </main>
+    <div class="footer-wrapper">
+        <footer class="container">
+            <section class="col-1-3"> <img src="images/logo_small.png" />
+                <article>
+                    <p> The skills and experience that students achieve at Coding Temple takes them a long way. We offer small classes, so students are able to have a more one on one interaction with our teachers. Our curriculum is designed to make students feel confident and be successful in the workforce once they have completed our course. </p>
+                </article>
+            </section>
+            <section class="col-1-3 nomobile">
+                <header>
+                    <h3>Quick Links</h3> </header>
+                <nav class="text-white"> <a href="index.html">Home</a> &bull; <a href="courses.html">Courses</a> &bull; <a href="students.html">Students</a> &bull; <a href="apply.html">Apply Now</a> </nav>
+            </section>
+            <section class="col-1-3">
+                <article>
+                    <p>332 S Michigan</p>
+                    <p>9th Floor</p>
+                    <p>Chicago, IL 60604</p>
+                </article>
+            </section>
+            <div class="clearfix"></div>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        function showNav(x) {
+            x.classList.toggle("change");
+            var nav = document.getElementsByClassName("topnav")[0].children[0];
+            if ((!nav.style.display) || (nav.style.display === "none")) {
+                nav.style.display = "block";
+            }
+            else {
+                nav.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
