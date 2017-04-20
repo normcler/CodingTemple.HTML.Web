@@ -1,6 +1,6 @@
 # CodingTempleWebsite
 Coding Temple Web Application (Not wordpress, not mobile responsive).
-The running version of this website is available at http://codingtemple.azurewebsites.net/
+The running version of this website is available at https://codingtemple.github.io/CodingTempleWebsite/
 
 ## Project Overview
 1. The goal of this is to show a step-by-step evolution of the a web site, corresponding to concepts discussed in Coding Temple's HTML overview sessions.
