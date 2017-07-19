@@ -2,8 +2,46 @@
     box-sizing: border-box;
 }
 
+body {
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: black;
+}
+
+header a:hover {
+    color: #45a2da;
+}
+
+h1, h2, h3, h4 {
+    color: #45a2da;
+}
+
+h2, h3, h4 {
+    font-size: 14px;
+    font-weight: 400;
+    Text-transform: uppercase;
+}
+
 .container {
     width: 960px;
     padding: 0px; 30px;
     margin: 0px auto;
+}
+
+footer a {
+    color: white;
 }
